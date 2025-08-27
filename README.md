@@ -1,7 +1,7 @@
 ```mermaid
 flowchart ID
 
-  A([Exemplo"])
+  A(["Início"])
   A --> B {"Faça uma escolha"}
   B --> C ["OP1"]
   B --> D ["OP2"]
