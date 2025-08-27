@@ -11,6 +11,6 @@ flowchart TD
 ```mermaid
 graph TD;
 A[Inició] --> B{Nota >6};
-B --> |SIM| C|[Aprovado];
-B --> |NÃO| D|[Reprovado];
+B --> |SIM| C[Aprovado];
+B --> |NÃO| D[Reprovado];
 ```
