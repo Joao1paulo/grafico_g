@@ -1,5 +1,5 @@
 ```mermaid
-flowchart ID
+flowchart TD
 
   A(["Início"])
   A --> B {"Faça uma escolha"}
