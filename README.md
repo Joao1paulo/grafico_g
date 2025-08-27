@@ -25,7 +25,7 @@ section 1°Semestre
 
 section 2° Bimestre
 3° Bimestre ⌛Em Andamento: active, a3, 2025-08-01, 60d
-4° Bimestre ➡️Em Andamento: crit, a4, after a3, 60 d
+4° Bimestre ➡️Em Andamento: crit, a4, after a3, 60d
 ```
 
 
