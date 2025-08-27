@@ -10,7 +10,17 @@ flowchart TD
 
 ```mermaid
 graph TD;
-A[Inició] --> B{Nota >6};
+A[Inicio] --> B{Nota >6};
 B --> |SIM| C[Aprovado];
 B --> |NÃO| D[Reprovado];
 ```
+
+```mermaid
+gantt
+title Exemplo de Gráfico de Gantt
+dateFormat YYY-MM-DD
+section 1°Bimestre : a1, 2025-02-02, 60d
+section 2° Bimestre
+
+```
+
