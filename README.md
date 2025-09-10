@@ -1,3 +1,4 @@
+
 ```mermaid
 flowchart TD
 
@@ -42,7 +43,66 @@ classDef branco fill:#fff, stroke:#o00, stroke-width:1px;
 classDef amarelo fill:#FFD8D, stroke:#oeo, stroke-width:1px;
 classDef laranja fill:#FFA233, stroke:#000, stroke-width:1px;
 classDef vermlho fill:#E64C3C, stroke:#000, stroke-width:1px;
+```
+
+---
+
+
+```mermaid
+gantt
+title Estudo de Caso - Construção de uma Casa
+dateFormat YYYY-MM-DD
+
+section Planejamento
+Preparação de Desenhos Arquitetônicos, Aprovações e Plano de Construção ✅Concluído :done, a1, 2025-01-01, 20d
+
+section Terreno
+Preparação do Terreno ⌛Em Andamento :active, a2, after a1, 10d
+
+section Estrutura
+Fundação ➡️Pendente :crit, a3, after a2, 15d
+Estrutura da Casa :a4, after a3, 30d
+
+section Instalações
+Instalações Elétricas e Hidráulicas :a5, after a4, 20d
+
+section Acabamentos
+Acabamento Interno :a6, after a5, 25d
+Acabamento Externo :a7, after a6, 15d
+
+section Entrega
+Inspeção Final e Entrega :a8, after a7, 5d
 
 ```
+
+
+
+<!-- ```mermaid
+gantt
+title Construção de uma Casa
+dateFormat YYYY-MM-DD
+section Planejamento
+Planejamento e Aprovações ✅:done, a1, 2025-01-01, 20d
+
+section Terreno
+Preparação do Terreno ⌛:active, a2, after a1, 10d
+
+section Estrutura
+Fundação ➡️:crit, a3, after a2, 15d
+Estrutura da Casa :a4, after a3, 30d
+
+section Instalações
+Instalações Elétricas e Hidráulicas :a5, after a4, 20d
+
+section Acabamentos
+Acabamento Interno :a6, after a5, 25d
+Acabamento Externo :a7, after a6, 15d
+
+section Entrega
+Inspeção Final e Entrega :a8, after a7, 5d
+``` -->
+
+
+
 
 
