@@ -102,6 +102,7 @@ section Entrega
 Inspeção Final e Entrega :a8, after a7, 5d
 ``` -->
 
+<!-- ```mermaid
 gantt
     title Gráfico de Gantt - Sistema de Cadastro de Empresas Parceiras
     dateFormat  YYYY-MM-DD
@@ -126,8 +127,7 @@ gantt
     Testes de Usabilidade com Usuários Convidados :t2, after t1, 10d
     Correções e Ajustes Finais :i1, after t2, 10d
     Implantação Final no Servidor e Entrega ao Cliente (Mês 6) :i2, after i1, 5d
-
-
+``` -->
 
 
 
