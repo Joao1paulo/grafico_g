@@ -124,48 +124,6 @@ Inspeção Final e Entrega :a8, after a7, 5d
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Sistema de Cadastro de Empresas Parceiras – TechConnect Solutions
-
-## 📌 Enunciado
-A empresa **TechConnect Solutions** foi contratada para desenvolver um **Sistema de Cadastro de Empresas Parceiras** no prazo de **6 meses**.  
-A equipe do projeto é composta por:  
-- 1 Gerente de Projetos  
-- 1 Analista de Sistemas  
-- 2 Desenvolvedores  
-- 1 Designer de Interface  
-- 1 Tester (QA)  
-
-O sistema deve contemplar:  
-- Login com autenticação e recuperação de senha  
-- Cadastro de empresas (CRUD)  
-- Upload de logotipo  
-- Relatórios em PDF/Excel  
-- Painel administrativo com permissões  
-- Interface responsiva  
-- Banco de dados seguro e integrado  
-
-O acompanhamento será feito por:  
-- **Gráfico de Gantt**  
-- **Metodologia Crystal Clear** com entregas incrementais  
-
----
-
 ## 📊 Gráfico de Gantt – Planejamento (6 meses)
 
 ```mermaid
