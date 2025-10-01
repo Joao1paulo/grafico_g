@@ -105,3 +105,96 @@ Inspeção Final e Entrega :a8, after a7, 5d
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Sistema de Cadastro de Empresas Parceiras – TechConnect Solutions
+
+## 📌 Enunciado
+A empresa **TechConnect Solutions** foi contratada para desenvolver um **Sistema de Cadastro de Empresas Parceiras** no prazo de **6 meses**.  
+A equipe do projeto é composta por:  
+- 1 Gerente de Projetos  
+- 1 Analista de Sistemas  
+- 2 Desenvolvedores  
+- 1 Designer de Interface  
+- 1 Tester (QA)  
+
+O sistema deve contemplar:  
+- Login com autenticação e recuperação de senha  
+- Cadastro de empresas (CRUD)  
+- Upload de logotipo  
+- Relatórios em PDF/Excel  
+- Painel administrativo com permissões  
+- Interface responsiva  
+- Banco de dados seguro e integrado  
+
+O acompanhamento será feito por:  
+- **Gráfico de Gantt**  
+- **Metodologia Crystal Clear** com entregas incrementais  
+
+---
+
+## 📊 Gráfico de Gantt – Planejamento (6 meses)
+
+```mermaid
+gantt
+    title Planejamento do Projeto - TechConnect Solutions
+    dateFormat  YYYY-MM-DD
+    section Levantamento e Planejamento
+    Reunião inicial e requisitos     :a1, 2025-01-01, 7d
+    Documentação funcional           :a2, after a1, 7d
+    section Design
+    Protótipos de telas              :b1, after a2, 7d
+    Layout definitivo                :b2, after b1, 7d
+    section Configuração inicial
+    Ambiente + Git + BD              :c1, after b2, 7d
+    section Desenvolvimento
+    Módulo de Login                  :d1, after c1, 14d
+    CRUD de empresas                 :d2, after d1, 14d
+    Upload de logotipo               :d3, after d2, 14d
+    Relatórios PDF/Excel             :d4, after d3, 14d
+    Painel administrativo            :d5, after d4, 14d
+    section Testes
+    Testes unitários e integração    :e1, after d5, 28d
+    Testes de usabilidade            :e2, after e1, 14d
+    section Implantação
+    Implantação final no servidor    :f1, after e2, 14d
+    Validação e aceite do cliente    :f2, after f1, 7d
+
+
+
+
+
+
