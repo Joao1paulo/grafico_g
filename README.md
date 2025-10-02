@@ -124,7 +124,7 @@ Inspeção Final e Entrega :a8, after a7, 5d
 
 
 
-## 📊 Gráfico de Gantt – Planejamento (6 meses)
+## Gráfico de Gantt - 
 
 ```mermaid
 gantt
