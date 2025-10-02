@@ -123,21 +123,18 @@ Inspeção Final e Entrega :a8, after a7, 5d
 
 
 
-## 📌 Matriz Crystal Clear – Entregas Incrementais
-
 ```mermaid
-flowchart TD
-    A1([Semana 3]) --> B1[Entrega 1: Login com autenticação]
-    B1 --> A2([Semana 6])
-    A2 --> B2[Entrega 2: CRUD de empresas]
-    B2 --> A3([Semana 8])
-    A3 --> B3[Entrega 3: Upload de logotipo]
-    B3 --> A4([Semana 10])
-    A4 --> B4[Entrega 4: Relatórios PDF/Excel]
-    B4 --> A5([Semana 12])
-    A5 --> B5[Entrega 5: Painel administrativo]
-    B5 --> AF([Mês 6])
-    AF --> BF[Entrega Final: Sistema completo validado]
+graph TD
+  subgraph Matriz
+    A1["Semana 3<br/>Login (Entrega 1)"]:::branco --> A2["Semana 6<br/>CRUD Empresas (Entrega 2)"]:::amarelo --> A3["Semana 8<br/>Upload Logotipo (Entrega 3)"]:::laranja --> A4["Mês 6<br/>Entrega Final"]:::vermelho
+    B1["Semana 10<br/>Relatórios PDF/Excel (Entrega 4)"]:::branco --> B2["Semana 12<br/>Painel Administrativo (Entrega 5)"]:::amarelo --> B3["Testes e Usabilidade"]:::laranja --> B4["Mês 6<br/>Sistema Validado"]:::vermelho
+  end
+
+classDef branco fill:#fff,stroke:#000,stroke-width:1px;
+classDef amarelo fill:#FFD700,stroke:#000,stroke-width:1px;
+classDef laranja fill:#FFA233,stroke:#000,stroke-width:1px;
+classDef vermelho fill:#E64C3C,stroke:#000,stroke-width:1px;
+
 
 
 
