@@ -123,35 +123,21 @@ Inspeção Final e Entrega :a8, after a7, 5d
 
 
 
-
-## Gráfico de Gantt
+## 📌 Matriz Crystal Clear – Entregas Incrementais
 
 ```mermaid
-gantt
-    title Planejamento do Projeto - TechConnect Solutions
-    dateFormat  YYYY-MM-DD
-    section Levantamento e Planejamento
-    Reunião inicial e requisitos     :a1, 2025-01-01, 7d
-    Documentação funcional           :a2, after a1, 7d
-    section Design
-    Protótipos de telas              :b1, after a2, 7d
-    Layout definitivo                :b2, after b1, 7d
-    section Configuração inicial
-    Ambiente + Git + BD              :c1, after b2, 7d
-    section Desenvolvimento
-    Módulo de Login                  :d1, after c1, 14d
-    CRUD de empresas                 :d2, after d1, 14d
-    Upload de logotipo               :d3, after d2, 14d
-    Relatórios PDF/Excel             :d4, after d3, 14d
-    Painel administrativo            :d5, after d4, 14d
-    section Testes
-    Testes unitários e integração    :e1, after d5, 28d
-    Testes de usabilidade            :e2, after e1, 14d
-    section Implantação
-    Implantação final no servidor    :f1, after e2, 14d
-    Validação e aceite do cliente    :f2, after f1, 7d
-
-
+flowchart TD
+    A1([Semana 3]) --> B1[Entrega 1: Login com autenticação]
+    B1 --> A2([Semana 6])
+    A2 --> B2[Entrega 2: CRUD de empresas]
+    B2 --> A3([Semana 8])
+    A3 --> B3[Entrega 3: Upload de logotipo]
+    B3 --> A4([Semana 10])
+    A4 --> B4[Entrega 4: Relatórios PDF/Excel]
+    B4 --> A5([Semana 12])
+    A5 --> B5[Entrega 5: Painel administrativo]
+    B5 --> AF([Mês 6])
+    AF --> BF[Entrega Final: Sistema completo validado]
 
 
 
