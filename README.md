@@ -167,19 +167,15 @@ classDef vermelho fill:#E64C3C,stroke:#000,stroke-width:1px;
 
 
 graph TD
-subgraph Matriz
-A1["Semana 3<br/>Login (Entrega 1)"]:::branco --> A2["Semana 6<br/>CRUD
-Empresas (Entrega 2)"]:::amarelo --> A3["Semana 8<br/>Upload Logotipo
-(Entrega 3)"]:::laranja --> A4["Mês 6<br/>Entrega Final"]:::vermelho
-B1["Semana 10<br/>Relatórios PDF/Excel (Entrega 4)"]:::branco -->
-B2["Semana 12<br/>Painel Administrativo (Entrega 5)"]:::amarelo -->
-B3["Testes e Usabilidade"]:::laranja --> B4["Mês 6<br/>Sistema
-Validado"]:::vermelho
-end
-classDef branco fill:#fff,stroke:#000,stroke-width:1px;
-classDef amarelo fill:#FFD700,stroke:#000,stroke-width:1px;
-classDef laranja fill:#FFA233,stroke:#000,stroke-width:1px;
-classDef vermelho fill:#E64C3C,stroke:#000,stroke-width:1px;
+  subgraph Matriz
+    A1["Semana 3<br/>Login (Entrega 1)"]:::branco --> A2["Semana 6<br/>CRUD Empresas (Entrega 2)"]:::amarelo --> A3["Semana 8<br/>Upload Logotipo (Entrega 3)"]:::laranja --> A4["Mês 6<br/>Entrega Final"]:::vermelho
+    B1["Semana 10<br/>Relatórios PDF/Excel (Entrega 4)"]:::branco --> B2["Semana 12<br/>Painel Administrativo (Entrega 5)"]:::amarelo --> B3["Testes e Usabilidade"]:::laranja --> B4["Mês 6<br/>Sistema Validado"]:::vermelho
+  end
+
+  classDef branco fill:#fff,stroke:#000,stroke-width:1px;
+  classDef amarelo fill:#FFD700,stroke:#000,stroke-width:1px;
+  classDef laranja fill:#FFA233,stroke:#000,stroke-width:1px;
+  classDef vermelho fill:#E64C3C,stroke:#000,stroke-width:1px;
 
 
 
