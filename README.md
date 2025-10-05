@@ -166,7 +166,6 @@ classDef vermelho fill:#E64C3C,stroke:#000,stroke-width:1px;
 
 
 
-```mermaid
 graph TD
 subgraph Matriz
 A1["Semana 3<br/>Login (Entrega 1)"]:::branco --> A2["Semana 6<br/>CRUD
@@ -181,6 +180,6 @@ classDef branco fill:#fff,stroke:#000,stroke-width:1px;
 classDef amarelo fill:#FFD700,stroke:#000,stroke-width:1px;
 classDef laranja fill:#FFA233,stroke:#000,stroke-width:1px;
 classDef vermelho fill:#E64C3C,stroke:#000,stroke-width:1px;
-``` -->
+
 
 
